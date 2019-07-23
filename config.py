@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+BN_DATAFORMAT='%Y-%m-%d %H:%M:%S'
 #连接用户信息
 app_secret='392a452a11433b4e9e558df020af5c36'
 app_key='c4a01df27272ad37046ae5a254a2df8e'
@@ -26,3 +26,18 @@ method_v2_shoplist='com.dfire.open.shop.query'
 cache_store='shop.json'
 cache_order='order.json'
 cache_order_detail='orderdetail.json'
+
+
+
+#-----------#
+wd_url='htt p://webpos.winton.com.cn/WebPos/'
+
+wd_method_geitem='PosApi/BasicData/GetItem'
+wd_method_getype='PosApi/BasicData/GetType'
+wd_method_getype='PosApi/BasicData/GetDept'
+wd_method_createpossales='PosApi/SalesData/CreatePosSales'
+
+wd_useris='CUST001'
+wd_keyid='002B85ED-8ACD-40AF-B892-F29614EE4086'
+
+

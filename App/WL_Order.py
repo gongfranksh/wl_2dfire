@@ -110,3 +110,11 @@ def get_2dfire_order_detail_from_cache():
     with open(daily_file_folder + os.sep + cache_order_detail, 'r') as f:
         rst=(json.load(f))
     return  rst
+
+def seek_2dfire_order_detail(odlists,entityid,orderid):
+    rst=[]
+    for odlist in odlists:
+         for od in odlist:
+             if od['entityId']==entityid and od['orderId']==orderid:
+                 rst.append(od)
+    return  rst
